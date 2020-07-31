@@ -22,6 +22,6 @@ public class HelloController {
         public String requestValues(@PathVariable String name) {
             return "Greetings from "+name;
         }
-
+        
 
     }
